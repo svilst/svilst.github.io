@@ -1,1 +1,27 @@
+title: "Random C++"
+email: svilst@gmail.com
+description: Random C++ explorations
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
 theme: minima
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+# minima:
+#  date_format: "%b %-d, %Y"
+
+# generate social links in footer
+#social_links:
+#   twitter: jekyllrb
+#   github:  jekyll
+#    rss: rss
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
